@@ -983,8 +983,8 @@ input[type="email"] {
     height: auto;
   }
 
-  .menu_footer.menu_ul.btn-primary {
-    display: none;
+  footer .btn-primary {
+    background-color: transparent;
   }
 }
 @media all and (max-width: 750px) {
