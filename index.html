@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="NomadTechy IT Consulting and Services" />
+    <meta
+      name="Keywords"
+      content="NomadTechy, IT Services, IT Consulting, managed IT Services, network support, computer support"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>NomadTechy</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script2.js"></script>
+
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu_up">
+        <div>
+          <p class="email">
+            <img src="assets/img/email_icon_white.svg" />support@nomadtechy.com
+          </p>
+        </div>
+        <div>
+          <p class="phone"><img src="assets/img/phone.svg" />(561) 316-6528</p>
+        </div>
+      </div>
+      <div class="menu_main">
+        <img src="assets\img\NomadTechy_blue.svg" />
+        <div class="menu">
+          <ul>
+            <a href="#about">
+              <li>ABOUT</li>
+            </a>
+            <a href="#service1">
+              <li>SERVICES</li>
+            </a>
+            <input
+              type="button"
+              id="blu_button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModalLong"
+              value="GET SUPPORT"
+            />
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="main_img">
+      <img id="img1" src="assets/img/main2.jpg" />
+      <img id="img2" src="assets/img/hero.jpg" />
+      <div class="main_header">IT Services, Done Your Way</div>
+      <div class="main_header2">
+        IT Services, Done<br />
+        Your Way
+      </div>
+    </div>
+    <div class="about">
+      <div class="we_are_here">
+        <p><a name="about"></a>We are here when you need us most.</p>
+      </div>
+      <div class="about_text">
+        <p>
+          At NomadTechy we provide IT services you can rely on. Our technicians
+          are always on-call to keep your business running smoothly.
+        </p>
+      </div>
+    </div>
+    <a name="service1"></a>
+    <div class="service">
+      <div class="service_foto">
+        <img src="assets/img/services.jpg" />
+      </div>
+      <div class="service_text">
+        <h2>What we do</h2>
+        <p>
+          If you are looking for work done by the hour or better yet, you would
+          like to get the complete NomadTechy package with our Managed Services,
+          our business is making sure your business is firing on all cylinders.
+          Whether it’s a house call or managing your entire business IT assets.
+          Remote assistance or on-site support. We are only a call away to give
+          you IT Service, Done Your Way.
+        </p>
+        <input
+          type="button"
+          id="blu_button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModalLong"
+          value="SUBMIT A REQUEST"
+        />
+      </div>
+    </div>
+    <div class="our_service_tittle">
+      <h2>Our Services</h2>
+    </div>
+    <div class="service_choose" id="service">
+      <div id="serv1">
+        <img class="icon" src="assets/img/Icon1.svg" />
+        <p>Managed Services</p>
+        <div id="more1">
+          <input
+            type="button"
+            id="Four_but"
+            value="Learn more"
+            onclick="start1()"
+          />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+
+      <div id="serv2">
+        <img class="icon" src="assets/img/Icon2.svg" />
+        <p>PC Performance Optimization</p>
+        <div id="more2">
+          <input type="button" value="Learn more" onclick="start2()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+
+      <div id="serv3">
+        <img class="icon" src="assets/img/Icon3.svg" />
+        <p>Peripheral Set-up</p>
+        <div id="more3">
+          <input
+            type="button"
+            id="One_but"
+            value="Learn more"
+            onclick="start3()"
+          />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+
+      <div id="serv4">
+        <img class="icon" src="assets/img/Icon4.svg" />
+        <p>Network Support</p>
+        <div id="more4">
+          <input
+            type="button"
+            id="Two_but"
+            value="Learn more"
+            onclick="start4()"
+          />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+
+      <div id="serv5">
+        <img class="icon" src="assets/img/Icon5.svg" />
+        <p>Data Backup/Transfer</p>
+        <div id="more5">
+          <input type="button" value="Learn more" onclick="start5()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+      <div id="serv55">
+        <img class="icon" src="assets/img/Icon6.svg" />
+        <p>General IT Inquiries</p>
+        <div id="more55">
+          <input
+            type="button"
+            id="Three_but"
+            value="Learn more"
+            onclick="start55()"
+          />
+          <img id="Tree_but" src="assets/img/arrow.svg" />
+        </div>
+      </div>
+    </div>
+    <div class="all-blocks">
+      <div id="block2">
+        <span class="closebtn" onclick="close_block()">&times;</span>
+        <h4>PC Performance Optimization</h4>
+        <p>
+          Hardware and software diagnostics scans are performed on your computer
+          to identify problem areas directly affecting your comput a clean up of
+          files and reconfigure other settings on your machine to optimize your
+          computer’s performance.
+        </p>
+      </div>
+
+      <div id="block3">
+        <span class="closebtn" onclick="close_block()">&times;</span>
+        <h4>Peripheral Set-up</h4>
+        <p>
+          Our technicians will assist you with setting up any peripherals on
+          your computer. This includes, but not limited to: printers, document
+          scanners, fax machines, sound speakers, mouse devices, monitors,
+          keyboards.
+        </p>
+      </div>
+      <div id="block4">
+        <span class="closebtn" onclick="close_block()">&times;</span>
+        <h4>Network Support</h4>
+        <p>
+          Reducing your downtime and getting you back up and running is our top
+          priority. If you have internet problems, contact us first. One of our
+          experienced experts will take the hassle of talking to the internet
+          provider by offering remote and on-site support.
+        </p>
+      </div>
+      <div id="block55">
+        <span class="closebtn" onclick="close_block()">&times;</span>
+        <h4>General IT Inquiries</h4>
+        <p>
+          Don’t get angry at your computer… anymore. Whether the programs are
+          not functioning properly or you have a missing file. Make us your
+          go-to Techy for any and all things IT.
+        </p>
+      </div>
+      <div id="block1" class="block">
+        <span class="closebtn" onclick="close_block()">&times;</span>
+        <h4>Managed Services</h4>
+        <p>
+          Are you a person or a business needing full time IT support? By
+          subscribing to our Managed Services, you will get a dedicated and
+          reliable Techy to manage your IT everything. From supporting users.
+          computers and peripherals to managing your servers and network. Our
+          technician will be on-call and available everyday and anytime, 24/7 at
+          one flat monthly rate.
+        </p>
+      </div>
+    </div>
+    <div id="block5" class="block">
+      <span class="closebtn" onclick="close_block()">&times;</span>
+      <h4>
+        Windows/Software Installation, and Personal Data Removal/Secure Hard
+        Drive Wipe
+      </h4>
+      <p>
+        Data recovering/restoration from your old hard drives. Data transfer
+        from one machine to another, locally or over the network. Software
+        installation from operating systems to programs and applications.
+        Recovering lost folders/files from computers and servers. Complete
+        personal data removal from a computer and computer reimaging. Secure
+        data wipe from hard drives to meet the DoD (Department of Defence)
+        5220.22-M Wiping Standard.
+      </p>
+    </div>
+
+    <div class="service_choose_adapt">
+      <div id="serv6">
+        <img class="icon" src="assets/img/Icon1.svg" />
+        <p>Managed Services</p>
+        <div id="more6">
+          <input type="button" value="Learn more" onclick="start6()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+      <div id="block6" class="block">
+        <span class="closebtn" onclick="close_block2()">&times;</span>
+        <p>
+          Are you a person or a business needing full time IT support? By
+          subscribing to our Managed Services, you will get a dedicated and
+          reliable Techy to manage your IT everything. From supporting users.
+          computers and peripherals to managing your servers and network. Our
+          technician will be on-call and available everyday and anytime, 24/7 at
+          one flat monthly rate.
+        </p>
+      </div>
+      <div id="serv7">
+        <img class="icon" src="assets/img/Icon2.svg" />
+        <p>PC Performance Optimization</p>
+        <div id="more7">
+          <input type="button" value="Learn more" onclick="start7()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+      <div id="block7">
+        <span class="closebtn" onclick="close_block2()">&times;</span>
+        <p>
+          Hardware and software diagnostics scans are performed on your computer
+          to identify problem areas directly affecting your computer’s
+          performance. We then perform a clean up of files and reconfigure other
+          settings on your machine to optimize your computer’s performance.
+        </p>
+      </div>
+
+      <div id="serv8">
+        <img class="icon" src="assets/img/Icon3.svg" />
+        <p>Peripheral Set-up</p>
+        <div id="more8">
+          <input type="button" value="Learn more" onclick="start8()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+      <div id="block8">
+        <span class="closebtn" onclick="close_block2()">&times;</span>
+        <p>
+          Our technicians will assist you with setting up any peripherals on
+          your computer. This includes, but not limited to: printers, document
+          scanners, fax machines, sound speakers, mouse devices, monitors,
+          keyboards.
+        </p>
+      </div>
+      <div id="serv9">
+        <img class="icon" src="assets/img/Icon4.svg" />
+        <p>Network Support</p>
+        <div id="more9">
+          <input type="button" value="Learn more" onclick="start9()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+      <div id="block9">
+        <span class="closebtn" onclick="close_block2()">&times;</span>
+        <p>
+          Reducing your downtime and getting you back up and running is our top
+          priority. If you have internet problems, contact us first. One of our
+          experienced experts will take the hassle of talking to the internet
+          provider by offering remote and on-site support.
+        </p>
+      </div>
+      <div id="serv10">
+        <img class="icon" src="assets/img/Icon5.svg" />
+        <p>Data Backup/Transfer</p>
+        <div id="more10">
+          <input type="button" value="Learn more" onclick="start10()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+      <div id="block10" class="block">
+        <span class="closebtn" onclick="close_block2()">&times;</span>
+        <p>
+          Data recovering/restoration from your old hard drives. Data transfer
+          from one machine to another, locally or over the network. Software
+          installation from operating systems to programs and applications.
+          Recovering lost folders/files from computers and servers. Complete
+          personal data removal from a computer and computer reimaging. Secure
+          data wipe from hard drives to meet the DoD (Department of Defence)
+          5220.22-M Wiping Standard.
+        </p>
+      </div>
+      <div id="serv11">
+        <img class="icon" src="assets/img/Icon6.svg" />
+        <p>General IT Inquiries</p>
+        <div id="more11">
+          <input type="button" value="Learn more" onclick="start11()" />
+          <img src="assets/img/arrow.svg" />
+        </div>
+      </div>
+      <div id="block11">
+        <span class="closebtn" onclick="close_block2()">&times;</span>
+        <p>
+          Don’t get angry at your computer… anymore. Whether the programs ar not
+          functioning properly or you have a missing file. Make us your go-to
+          Techy for any and all things IT.
+        </p>
+      </div>
+    </div>
+
+    <div class="call_to_action">
+      <p>Ready to work with us?</p>
+      <input
+        type="button"
+        id="blu_button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModalLong"
+        value="SUBMIT A REQUEST"
+      />
+    </div>
+    <footer>
+      <div class="menu_footer">
+        <div class="footer_logo">
+          <img src="assets\img\NomadTechy_white.svg" />
+          <p>support@nomadtechy.com</p>
+        </div>
+        <div class="menu_ul">
+          <ul>
+            <a href="#about">
+              <li>ABOUT</li>
+            </a>
+            <a href="#service1">
+              <li>SERVICES</li>
+            </a>
+            <li
+              id="blu_button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModalLong"
+            >
+              SUBMIT A REQUEST
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="all_right">
+        <p>&copy; NomadTechy. All Rights Reserved.</p>
+        <p><a href="Privacy_Agreement.pdf" class="police">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalLong"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <div class="thankyou">
+            <h6>Thank you!</h6>
+            <p>
+              A member of our team will reach<br />
+              out to you within 2 hours.
+            </p>
+            <p id="warning">
+              If you have not received an automated confirmation email in the
+              next 5 minutes after submitting the request, please check your
+              Spam/Junk folder in your mailbox. Also, please make sure that your
+              email address is spelled correctly.
+            </p>
+            <div class="tel_email">
+              <div>
+                <p class="phone">
+                  <img src="assets/img/phone.svg" />(561)316-6528
+                </p>
+              </div>
+              <div>
+                <p class="email">
+                  <img
+                    src="assets/img/email_icon_white.svg"
+                  />support@nomadtechy.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid" id="modal_form">
+            <div class="row">
+              <div class="col-5">
+                <h6>Feel free to ask <br />us anything.</h6>
+                <p>
+                  A member of our team will reach out to you within 2 hours.
+                </p>
+                <p class="phone">
+                  <img src="assets/img/phone.svg" />(561) 316-6528
+                </p>
+                <p id="email_modal">
+                  <img
+                    src="assets/img/email_icon_white.svg"
+                  />support@nomadtechy.com
+                </p>
+              </div>
+              <div class="col-6">
+                <div class="modal-header"></div>
+                <h2>Submit a Request</h2>
+                <div class="modal_adapt">
+                  <p>
+                    Feel free to ask us anything. A member of our team will
+                    reach out to you within 2 hours.
+                  </p>
+                  <p class="phone">
+                    <img src="assets/img/phone_gray.svg" />(561) 316-6528
+                  </p>
+                  <p id="email_modal2">
+                    <img
+                      src="assets/img/email_icon_blue.svg"
+                    />support@nomadtechy.com
+                  </p>
+                </div>
+                <!-- php/function-send-form.php -->
+                <form
+                  name="request"
+                  method="POST"
+                  action=""
+                  class="sendler"
+                  id="my_form_email"
+                >
+                  <input
+                    class="Y-required name"
+                    type="text"
+                    name="f[name]"
+                    placeholder="Your name"
+                    tabindex="1"
+                    confirminfo=".response"
+                  />
+                  <input
+                    class="Y-required company"
+                    type="text"
+                    name="f[company]"
+                    placeholder="Company"
+                    tabindex="2"
+                    confirminfo=".response"
+                  />
+                  <input
+                    class="Y-required email"
+                    type="email"
+                    name="f[email]"
+                    placeholder="Email"
+                    tabindex="3"
+                    confirminfo=".response"
+                  />
+                  <input
+                    class="Y-required phoneNumber"
+                    type="tel"
+                    name="f[phoneNumber]"
+                    placeholder="Phone number"
+                    tabindex="4"
+                    confirminfo=".response"
+                  />
+                  <textarea
+                    name="f[message]"
+                    cols="30"
+                    rows="10"
+                    id="textarea"
+                    class="Y-required message"
+                    tabindex="5"
+                    confirminfo=".response"
+                    type="textarea"
+                    placeholder="What can we help you with?"
+                  ></textarea>
+
+                  <span class="error_modal"></span>
+
+                  <div id="form_err">
+                    Please fill out all the required fields.
+                  </div>
+
+                  <div class="modal-footer">
+                    <button
+                      type="submit"
+                      name="submitbtn"
+                      id="submit_modal"
+                      class="btn btn-primary"
+                    >
+                      SEND
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      id="submit_modal_err"
+                    >
+                      SEND
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- modal-backdrop fade show -->
+
+    <script>
+      $("#my_form_email").submit(function () {
+        $.post(
+          "post-email.php", // адрес обработчика
+          $("#my_form_email").serialize(), // отправляемые данные
+
+          function (msg) {
+            // получен ответ сервера
+            $("#modal_form").hide("");
+            $(".thankyou").show("");
+            $(".thankyou").css("display", "flex");
+            $(".close").css("color", "#fff");
+            $(".close").css("opacity", "1");
+            $(".close").css("text-shadow", "none");
+            // $('.thankyou').html(msg);
+          }
+        );
+
+        return false;
+      });
+    </script>
+  </body>
+</html>
