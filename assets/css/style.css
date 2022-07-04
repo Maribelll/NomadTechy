@@ -79,13 +79,14 @@ a :hover {
   opacity: 1;
 }
 
-#blu_button {
+#blu_button,
+#main_blu_button {
   width: 216px;
   height: 46px;
   border-radius: 40px;
   background: #53c4ff 0% 0% no-repeat padding-box;
   border: none;
-  padding: 14px 31px 14px 31px;
+  padding: 12px 31px 14px 31px;
   color: white;
   letter-spacing: 1.4px;
   font-weight: bold;
@@ -110,17 +111,41 @@ a :hover {
 .main_header2 {
   display: none;
 }
-
-.main_header,
-.main_header2 {
+.main_header {
   position: absolute;
-  top: 40%;
-  left: 26%;
-  font-weight: 100;
-  font-size: 58px;
-  letter-spacing: 0px;
+  left: 10%;
+  top: 25%;
+  z-index: 10;
+}
+
+h1 {
+  padding-bottom: 20px;
+  padding-left: 40px;
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 53.49px;
+  letter-spacing: 0em;
+  text-align: left;
   color: #ffffff;
-  opacity: 1;
+}
+#it_blue {
+  color: #53c4ff;
+}
+.main_buttons {
+  margin-top: 20px;
+}
+#transparent_button {
+  width: 216px;
+  height: 46px;
+  border-radius: 40px;
+  background: transparent;
+  border: #53c4ff solid 2px;
+  padding: 11px 31px 14px 31px;
+  color: white;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
 }
 
 .about {
@@ -664,10 +689,6 @@ input[type="email"] {
     padding-left: 140px;
   }
 
-  .main_header {
-    left: 20%;
-  }
-
   .service_text h2 {
     font-size: 26px;
   }
@@ -678,6 +699,13 @@ input[type="email"] {
 }
 
 @media all and (max-width: 1180px) {
+  .main_header {
+    top: 15%;
+  }
+  h1 {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
   #block1,
   #block2,
   #block3,
@@ -751,6 +779,26 @@ input[type="email"] {
 }
 
 @media all and (max-width: 1000px) {
+  .main_buttons {
+    margin-top: 0;
+  }
+  h1 {
+    font-weight: 800;
+    font-size: 30.0534px;
+    line-height: 32px;
+  }
+  #main_blu_button,
+  #transparent_button {
+    width: 112px;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    height: 27.18px;
+    padding: 0;
+  }
+
   .service,
   .service_foto,
   .service_foto img {
@@ -1002,6 +1050,18 @@ input[type="email"] {
 }
 
 @media all and (max-width: 630px) {
+  .main_header {
+    height: 224px;
+    top: 33%;
+  }
+  #img1 {
+    display: none;
+  }
+  #img2 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
   .modal-footer .btn-primary {
     margin-right: -37px;
     margin-top: 25px;
@@ -1086,15 +1146,16 @@ input[type="email"] {
 }
 
 @media all and (max-width: 500px) {
-  .menu_up {
-    display: none;
-  }
-
-  .main_header2 {
-    display: block;
-  }
-
   .main_header {
+    left: 20px;
+  }
+  h1 {
+    padding-left: 0;
+  }
+  .main_buttons {
+    margin-left: -30px;
+  }
+  .menu_up {
     display: none;
   }
 
@@ -1178,11 +1239,9 @@ input[type="email"] {
 }
 
 @media all and (max-width: 420px) {
-  .main_header2 {
-    left: 20%;
-    top: 30%;
+  .main_header {
+    top: 22%;
   }
-
   .close span {
     margin-right: 70px;
   }
@@ -1218,17 +1277,9 @@ input[type="email"] {
     margin: 0px;
     height: 450px;
   }
-
-  .main_header {
-    left: 15%;
-  }
 }
 
 @media all and (max-width: 375px) {
-  .main_header {
-    left: 12%;
-  }
-
   .call_to_action p {
     width: 233px;
     line-height: 38px;
