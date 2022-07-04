@@ -10,7 +10,9 @@ body {
 .menu_main img {
   width: 214px;
 }
-
+a:hover {
+  text-decoration: none;
+}
 .menu_up {
   display: flex;
   flex-direction: row;
@@ -18,7 +20,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   color: white;
-  height: 60px;
+  height: 40px;
   background-color: #325ca0;
   width: 100%;
 }
@@ -330,7 +332,6 @@ input[type="email"] {
   color: #325ca0;
   border: none;
   background-color: white;
-
   font-size: 14px;
 }
 
@@ -597,6 +598,12 @@ input[type="email"] {
 .thankyou {
   display: none;
   background-color: #325ca0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  z-index: 1;
+  width: 100%;
 }
 
 .thankyou .email {
@@ -982,12 +989,8 @@ input[type="email"] {
   footer {
     height: auto;
   }
-
-  footer .btn-primary {
-    background-color: transparent;
-    width: 100%;
-  }
 }
+
 @media all and (max-width: 750px) {
   .menu li {
     display: none;
@@ -1002,10 +1005,6 @@ input[type="email"] {
   .modal-footer .btn-primary {
     margin-right: -37px;
     margin-top: 25px;
-  }
-
-  .modal-footer {
-    margin-left: 40px;
   }
 
   .modal-content {
@@ -1139,11 +1138,15 @@ input[type="email"] {
   }
 
   #submit_modal {
-    margin-right: -113px;
+    margin-right: -70px;
   }
 }
 
 @media all and (max-width: 440px) {
+  #submit_modal {
+    margin-left: 5px;
+  }
+
   .close span {
     margin-right: 50px;
   }
@@ -1153,17 +1156,13 @@ input[type="email"] {
     margin-left: -33px;
   }
 
-  #submit_modal {
-    margin-left: -30px;
-    margin-bottom: 50px;
-  }
-
   .col-6 p,
   h2 {
     padding: 0px;
   }
 
-  .col-6 h2 {
+  .col-6 p,
+  h2 {
     padding: 0px;
   }
 
@@ -1223,7 +1222,6 @@ input[type="email"] {
   .main_header {
     left: 15%;
   }
-  li 
 }
 
 @media all and (max-width: 375px) {
@@ -1260,9 +1258,9 @@ input[type="email"] {
   justify-content: center;
   flex-direction: column;
   color: #fff;
+  background-color: #325ca0;
   font-size: 16px;
   padding-top: 50px;
-  width: 801px;
 }
 
 .thankyou h6 {
@@ -1297,7 +1295,7 @@ input[type="email"] {
   position: absolute;
   top: 10px;
   right: 20px;
-  z-index: 1;
+  z-index: 2;
 }
 
 #exampleModalLong .modal-content .close span {
