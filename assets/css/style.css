@@ -148,7 +148,7 @@ h1 {
 .container_ask_services {
   background-color: #1a2a44;
   color: white;
-  margin-top: -1px;
+  margin-top: -3px;
 }
 .ask_services {
   display: flex;
@@ -274,12 +274,26 @@ h1 {
 }
 
 .our_service_tittle {
-  padding: 71px 0 97px 0;
+  padding: 71px 0 7px 0;
   line-height: 70px;
 }
 
 .our_service_tittle h2 {
-  font-weight: 100;
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.our_service_tittle p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .icon {
@@ -294,7 +308,7 @@ h1 {
 
 .service_choose div {
   font-size: 14px;
-  color: #343b43;
+  /* color: #f3f6fb; */
 }
 
 #email_modal img {
@@ -438,6 +452,8 @@ input[type="email"] :active {
   flex-direction: column;
   align-items: center;
   min-width: 189px;
+  border: solid 3px #325ca0;
+  margin: 0 10.5px 0 10.5px;
 }
 
 #serv1 p,

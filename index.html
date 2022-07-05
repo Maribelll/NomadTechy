@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="NomadTechy IT Consulting and Services" />
     <meta
@@ -8,11 +9,12 @@
       content="NomadTechy, IT Services, IT Consulting, managed IT Services, network support, computer support"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NomadTechy</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -42,6 +44,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper.css" />
+
     <script src="assets/js/script.js"></script>
     <script src="assets/js/script2.js"></script>
 
@@ -156,6 +160,7 @@
         </p>
       </div>
     </div>
+
     <a name="service1"></a>
     <div class="service">
       <div class="service_foto">
@@ -183,80 +188,104 @@
     </div>
     <div class="our_service_tittle">
       <h2>Our Services</h2>
+      <p>
+        We offer a wide range of remediation solutions to suit your
+        technological needs.
+      </p>
     </div>
-    <div class="service_choose" id="service">
-      <div id="serv1">
-        <img class="icon" src="assets/img/Icon1.svg" />
-        <p>Managed Services</p>
-        <div id="more1">
-          <input
-            type="button"
-            id="Four_but"
-            value="Learn more"
-            onclick="start1()"
-          />
-          <img src="assets/img/arrow.svg" />
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- <div class="service_choose" id="service"> -->
+        <div class="swiper-slide">
+          <div id="serv1">
+            <img class="icon" src="assets/img/Icon1.svg" />
+            <p>Managed Services</p>
+            <div id="more1">
+              <input
+                type="button"
+                id="Four_but"
+                value="Learn more"
+                onclick="start1()"
+              />
+              <img src="assets/img/arrow.svg" />
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div id="serv2">
-        <img class="icon" src="assets/img/Icon2.svg" />
-        <p>PC Performance Optimization</p>
-        <div id="more2">
-          <input type="button" value="Learn more" onclick="start2()" />
-          <img src="assets/img/arrow.svg" />
+        <div class="swiper-slide">
+          <div id="serv2">
+            <img class="icon" src="assets/img/Icon2.svg" />
+            <p>PC Performance Optimization</p>
+            <div id="more2">
+              <input type="button" value="Learn more" onclick="start2()" />
+              <img src="assets/img/arrow.svg" />
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div id="serv3">
-        <img class="icon" src="assets/img/Icon3.svg" />
-        <p>Peripheral Set-up</p>
-        <div id="more3">
-          <input
-            type="button"
-            id="One_but"
-            value="Learn more"
-            onclick="start3()"
-          />
-          <img src="assets/img/arrow.svg" />
+        <div class="swiper-slide">
+          <div id="serv3">
+            <img class="icon" src="assets/img/Icon3.svg" />
+            <p>Peripheral Set-up</p>
+            <div id="more3">
+              <input
+                type="button"
+                id="One_but"
+                value="Learn more"
+                onclick="start3()"
+              />
+              <img src="assets/img/arrow.svg" />
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div id="serv4">
-        <img class="icon" src="assets/img/Icon4.svg" />
-        <p>Network Support</p>
-        <div id="more4">
-          <input
-            type="button"
-            id="Two_but"
-            value="Learn more"
-            onclick="start4()"
-          />
-          <img src="assets/img/arrow.svg" />
+        <div class="swiper-slide">
+          <div id="serv4">
+            <img class="icon" src="assets/img/Icon4.svg" />
+            <p>Network Support</p>
+            <div id="more4">
+              <input
+                type="button"
+                id="Two_but"
+                value="Learn more"
+                onclick="start4()"
+              />
+              <img src="assets/img/arrow.svg" />
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div id="serv5">
-        <img class="icon" src="assets/img/Icon5.svg" />
-        <p>Data Backup/Transfer</p>
-        <div id="more5">
-          <input type="button" value="Learn more" onclick="start5()" />
-          <img src="assets/img/arrow.svg" />
+        <div class="swiper-slide">
+          <div id="serv5">
+            <img class="icon" src="assets/img/Icon5.svg" />
+            <p>Data Backup/Transfer</p>
+            <div id="more5">
+              <input type="button" value="Learn more" onclick="start5()" />
+              <img src="assets/img/arrow.svg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div id="serv55">
+            <img class="icon" src="assets/img/Icon6.svg" />
+            <p>General IT Inquiries</p>
+            <div id="more55">
+              <input
+                type="button"
+                id="Three_but"
+                value="Learn more"
+                onclick="start55()"
+              />
+              <img id="Tree_but" src="assets/img/arrow.svg" />
+            </div>
+          </div>
         </div>
       </div>
-      <div id="serv55">
-        <img class="icon" src="assets/img/Icon6.svg" />
-        <p>General IT Inquiries</p>
-        <div id="more55">
-          <input
-            type="button"
-            id="Three_but"
-            value="Learn more"
-            onclick="start55()"
-          />
-          <img id="Tree_but" src="assets/img/arrow.svg" />
-        </div>
-      </div>
+      <!-- </div> -->
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
     <div class="all-blocks">
       <div id="block2">
@@ -669,5 +698,8 @@
         return false;
       });
     </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
   </body>
 </html>
