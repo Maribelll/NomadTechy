@@ -1,7 +1,48 @@
 .swiper {
-  max-width: 1200px;
+  position: relative;
+  max-width: 1120px;
   height: 300px;
+}
+.swipper-wrapper {
+  width: 1150px;
 }
 .swiper-slide {
   flex-shrink: 1 !important;
+}
+.swiper-button-next {
+  position: absolute;
+  right: -30px;
+  top: 120px;
+}
+.swiper-button-prev {
+  position: absolute;
+  left: -30px;
+  top: 120px;
+}
+@media all and (max-width: 1220px) {
+  .swiper {
+    max-width: 900px;
+  }
+  .swiper-button-next {
+    right: 70px;
+  }
+  .swiper-button-prev {
+    left: 75px;
+  }
+}
+@media all and (max-width: 1120px) {
+  /* .pos {
+    display: none;
+  } */
+  .swiper-button-next {
+    right: 20px;
+  }
+  .swiper-button-prev {
+    left: 20px;
+  }
+}
+@media all and (max-width: 1000px) {
+  .pos {
+    display: none;
+  }
 }

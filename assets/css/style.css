@@ -202,6 +202,11 @@ h1 {
   flex-wrap: nowrap;
   height: 400px;
 }
+.pos {
+  position: relative;
+  max-width: 1150px;
+  margin: 0 auto;
+}
 
 .about_text {
   margin-top: 100px;
@@ -446,8 +451,8 @@ input[type="email"] :active {
 #serv4,
 #serv5,
 #serv55 {
-  width: 212px;
-  height: 250px;
+  width: 203px;
+  height: 233px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -475,14 +480,14 @@ input[type="email"] :active {
 #block5,
 #block55 {
   display: none;
-  width: 100%;
+  max-width: 1100px;
   text-align: left;
-  padding-left: 192px;
-  padding-right: 357px;
-  background-color: #f8f8f8;
-  padding-top: 40px;
+  border-radius: 5px;
+  background-color: #f3f6fb;
+  padding: 30px;
   position: relative;
-  margin-bottom: 100px;
+  border: 1px solid #325ca0;
+  margin: 0 auto 74px auto;
 }
 
 #block1 p,
@@ -492,12 +497,15 @@ input[type="email"] :active {
 #block5 p,
 #block55 p {
   font-size: 14px;
-  line-height: 24px;
-  padding-bottom: 40px;
-  height: 200px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  max-width: 1035px;
 }
 
-#block1 h4,
+/* #block1 h4,
 #block2 h4,
 #block3 h4,
 #block4 h4,
@@ -506,7 +514,7 @@ input[type="email"] :active {
   font-size: 18px;
   color: #325ca0;
   padding-bottom: 35px;
-}
+} */
 
 .closebtn {
   position: absolute;
@@ -546,9 +554,13 @@ input[type="email"][type="text"],
 input,
 input[type="email"][type="tel"],
 textarea {
-  color: #bababa;
-  font-weight: lighter;
-  font-size: 16px;
+  color: #325ca0;
+  border-bottom: #325ca0 solid 1px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 textarea {
@@ -742,15 +754,6 @@ input[type="email"] {
 }
 
 @media all and (max-width: 1230px) {
-  #block1,
-  #block2,
-  #block3,
-  #block4,
-  #block5,
-  #block55 {
-    padding-left: 140px;
-  }
-
   .service_text h2 {
     font-size: 26px;
   }
@@ -768,14 +771,14 @@ input[type="email"] {
     padding-bottom: 10px;
     margin-bottom: 0;
   }
-  #block1,
+  /* #block1,
   #block2,
   #block3,
   #block4,
   #block5,
   #block55 {
     padding-left: 140px;
-  }
+  } */
 
   #serv3 p,
   #serv4 p,
