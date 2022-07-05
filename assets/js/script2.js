@@ -13,6 +13,8 @@ function start1() {
   block5.style.display = "none";
   var block55 = document.getElementById("block55");
   block55.style.display = "none";
+  var backcolor1 = document.getElementById("Four_but");
+  backcolor1.style.backgroundColor = "F3F6FB";
 
   var more1 = document.getElementById("more1");
   more1.style.backgroundColor = "#F3F6FB";

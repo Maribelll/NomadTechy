@@ -2,6 +2,8 @@ const swiper = new Swiper(".swiper", {
   // Optional parameters
   slidesPerView: 5,
   slidesPerGroup: 1,
+  draggable: false,
+  allowTouchMove: false,
 
   navigation: {
     nextEl: ".swiper-button-next",
