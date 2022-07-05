@@ -169,12 +169,12 @@ h1 {
 }
 .managed_services {
   margin-right: 26.5px;
-  max-width: 400px;
+  max-width: 470px;
   padding-left: 10px;
 }
 .demand_services {
   margin-left: 26.5px;
-  max-width: 400px;
+  max-width: 470px;
   padding-right: 10px;
 }
 .manage_h {
@@ -192,6 +192,7 @@ h1 {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  margin-left: 60px;
 }
 .about {
   display: flex;
