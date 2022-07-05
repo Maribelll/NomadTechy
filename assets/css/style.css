@@ -108,9 +108,6 @@ a :hover {
   position: relative;
 }
 
-.main_header2 {
-  display: none;
-}
 .main_header {
   position: absolute;
   left: 10%;
@@ -147,7 +144,55 @@ h1 {
   font-size: 14px;
   text-align: center;
 }
+/* ask_services */
+.container_ask_services {
+  background-color: #1a2a44;
+  color: white;
+  margin-top: -1px;
+}
+.ask_services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 47px;
+  padding-bottom: 50px;
+}
 
+.manage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+.managed_services,
+.demand_services {
+  max-width: 458px;
+}
+.managed_services {
+  margin-right: 26.5px;
+  max-width: 400px;
+  padding-left: 10px;
+}
+.demand_services {
+  margin-left: 26.5px;
+  max-width: 400px;
+  padding-right: 10px;
+}
+.manage_h {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.manage_p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 .about {
   display: flex;
   flex-direction: row;
@@ -1061,6 +1106,31 @@ input[type="email"] {
     display: block;
     width: 100%;
     height: auto;
+  }
+  .ask_services {
+    flex-direction: column;
+    padding-left: 19px;
+    padding-right: 20px;
+  }
+
+  .managed_services,
+  .demand_services {
+    align-self: center;
+    margin-left: 0;
+  }
+  .demand_services {
+    margin-top: 22px;
+  }
+  .manage_p {
+    width: 235px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin-left: 60px;
+  }
+  .manage {
+    margin-bottom: 10px;
   }
   .modal-footer .btn-primary {
     margin-right: -37px;
