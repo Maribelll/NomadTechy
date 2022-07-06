@@ -866,6 +866,9 @@ input[type="email"] {
   right: 0;
   height: 635px;
 }
+#text2 {
+  display: none;
+}
 .photo_owner img {
   width: 217px;
   margin-bottom: 24px;
@@ -1053,6 +1056,12 @@ input[type="email"] {
 }
 
 @media all and (max-width: 1000px) {
+  #text1 {
+    display: none;
+  }
+  #text2 {
+    display: block;
+  }
   .main_buttons {
     margin-top: 0;
   }
@@ -1454,6 +1463,7 @@ input[type="email"] {
     width: 216px;
     font-size: 14px;
     height: 46px;
+    font-weight: 500;
   }
 
   .row {
@@ -1599,6 +1609,10 @@ input[type="email"] {
     margin: 0px;
     height: 450px;
   } */
+  .photo_owner p {
+    margin-left: -80px;
+    padding-left: 20px;
+  }
 }
 
 @media all and (max-width: 375px) {
