@@ -827,9 +827,11 @@ input[type="email"] {
   background-color: #f3f6fb;
   position: relative;
   margin: 10px 3px;
+  transition: 2s ease-out;
 }
 .industries_block:hover {
   box-shadow: 0 0 50px #3a8ab6 inset;
+  transition: 2s ease-out;
 }
 .inside {
   margin-top: 55px;
