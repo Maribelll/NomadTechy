@@ -374,12 +374,15 @@ h1 {
 }
 
 .call_to_action p {
+  padding-right: 34px;
+  margin-bottom: 0;
   color: white;
-  font-weight: 100;
+  font-family: Open Sans;
   font-size: 32px;
-  padding-right: 60px;
-  line-height: 70px;
-  font-weight: 100;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 footer {
@@ -1108,10 +1111,16 @@ input[type="email"] {
   .call_to_action {
     flex-direction: column;
     height: 375px;
+    padding: 0 10px;
   }
 
   .call_to_action p {
-    padding-right: 0px;
+    padding: 0 0px 20px 0px;
+    text-align: center;
+  }
+  #call_to_action1 {
+    padding: 0 10px 20px 10px;
+    text-align: center;
   }
 
   .menu_footer {
