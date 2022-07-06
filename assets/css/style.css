@@ -199,7 +199,8 @@ h1 {
 #more3 input,
 #more4 input,
 #more5 input,
-#more55 input {
+#more55 input,
+#more56 input {
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
@@ -208,6 +209,9 @@ h1 {
   color: #325ca0;
   border-bottom: solid 3px #325ca0;
   padding: 0;
+  position: absolute;
+  top: 167px;
+  right: 73px;
 }
 .about {
   display: flex;
@@ -318,7 +322,7 @@ h1 {
 }
 
 .icon {
-  margin-top: 26px;
+  height: 85px;
   width: 41px;
 }
 
@@ -461,7 +465,7 @@ input[type="email"] :active {
 #more9 img,
 #more10 img,
 #more11 img,
-#more55 img {
+#more55 img #more56 input {
   width: 8px;
 }
 
@@ -470,27 +474,27 @@ input[type="email"] :active {
 #serv3,
 #serv4,
 #serv5,
-#serv55 {
+#serv55,
+#serv56 {
+  padding: 0 10px;
   width: 203px;
   height: 233px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   min-width: 189px;
   border: solid 3px #325ca0;
   margin: 0 10.5px 0 10.5px;
 }
+/* #serv55 p {
+  padding-top: 30px;
+} */
 
 #serv1 p,
+#serv2 p,
 #serv3 p,
 #serv4 p,
 #serv5 p,
-#serv55 p {
-  padding: 30px 10px;
-}
-
-#serv2 p {
-  padding: 30px 10px 20px 10px;
+#serv55 p,
+#serv56 p {
+  padding-top: 15px;
 }
 
 #block1,
@@ -498,7 +502,8 @@ input[type="email"] :active {
 #block3,
 #block4,
 #block5,
-#block55 {
+#block55,
+#block56 {
   display: none;
   max-width: 1100px;
   text-align: left;
@@ -515,7 +520,8 @@ input[type="email"] :active {
 #block3 p,
 #block4 p,
 #block5 p,
-#block55 p {
+#block55 p,
+#block56 p {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
@@ -805,18 +811,19 @@ input[type="email"] {
     padding-left: 140px;
   } */
 
-  #serv3 p,
+  /* #serv3 p,
   #serv4 p,
   #serv5 p,
   #serv55 p {
     padding: 30px 0px;
-  }
+  } */
 
   #serv2,
   #serv3,
   #serv4,
   #serv5,
-  #serv55 {
+  #serv55,
+  #serv56 {
     min-width: 170px;
   }
 }
@@ -831,7 +838,8 @@ input[type="email"] {
   #block3,
   #block4,
   #block5,
-  #block55 {
+  #block55,
+  #block56 {
     padding-left: 70px;
   }
 
@@ -1060,9 +1068,9 @@ input[type="email"] {
   #serv3 p,
   #serv4 p,
   #serv5 p,
-  #serv55 {
+  #serv55 p,
+  #serv56 p {
     font-size: 22px;
-    padding-bottom: 10px;
   }
 
   .service_choose input {
@@ -1074,7 +1082,8 @@ input[type="email"] {
   #serv3,
   #serv4,
   #serv5,
-  #serv55 {
+  #serv55,
+  #serv56 {
     margin-bottom: 15px;
     text-align: center;
     height: auto;
