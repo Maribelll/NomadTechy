@@ -465,7 +465,9 @@ input[type="email"] :active {
 #more9 img,
 #more10 img,
 #more11 img,
-#more55 img #more56 input {
+#more12 img,
+#more55 img,
+#more56 img {
   width: 8px;
 }
 
@@ -971,7 +973,8 @@ input[type="email"] {
   #block7,
   #block8,
   #block9,
-  #block11 {
+  #block11,
+  #block12 {
     display: none;
     width: 100%;
     text-align: left;
@@ -984,7 +987,8 @@ input[type="email"] {
   #block8 p,
   #block9 p,
   #block10 p,
-  #block11 p {
+  #block11 p,
+  #block12 p {
     font-size: 14px;
     line-height: 24px;
     padding: 60px 50px 32px 50px;

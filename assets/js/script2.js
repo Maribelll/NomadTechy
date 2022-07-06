@@ -280,12 +280,14 @@ function close_block2() {
   var block9 = document.getElementById("block9");
   var block10 = document.getElementById("block10");
   var block11 = document.getElementById("block11");
+  var block12 = document.getElementById("block12");
 
   block6.style.display = "none";
   block7.style.display = "none";
   block8.style.display = "none";
   block9.style.display = "none";
   block10.style.display = "none";
+  block12.style.display = "none";
   block11.style.display = "none";
   more6.style.display = "block";
   more7.style.display = "block";
@@ -293,6 +295,7 @@ function close_block2() {
   more9.style.display = "block";
   more10.style.display = "block";
   more11.style.display = "block";
+  more12.style.display = "block";
 }
 function start6() {
   block6.style.display = "block";
@@ -303,11 +306,13 @@ function start6() {
   more9.style.display = "block";
   more10.style.display = "block";
   more11.style.display = "block";
+  more12.style.display = "block";
   block7.style.display = "none";
   block8.style.display = "none";
   block9.style.display = "none";
   block10.style.display = "none";
   block11.style.display = "none";
+  block12.style.display = "none";
 }
 function start7() {
   block7.style.display = "block";
@@ -316,6 +321,7 @@ function start7() {
   block9.style.display = "none";
   block10.style.display = "none";
   block11.style.display = "none";
+  block12.style.display = "none";
   var more7 = document.getElementById("more7");
   more7.style.display = "none";
   more8.style.display = "block";
@@ -323,6 +329,7 @@ function start7() {
   more9.style.display = "block";
   more10.style.display = "block";
   more11.style.display = "block";
+  more12.style.display = "block";
 }
 function start8() {
   block8.style.display = "block";
@@ -331,6 +338,7 @@ function start8() {
   block9.style.display = "none";
   block10.style.display = "none";
   block11.style.display = "none";
+  block12.style.display = "none";
   var more8 = document.getElementById("more8");
   more8.style.display = "none";
   more9.style.display = "block";
@@ -338,6 +346,7 @@ function start8() {
   more7.style.display = "block";
   more6.style.display = "block";
   more11.style.display = "block";
+  more12.style.display = "block";
 }
 function start9() {
   block9.style.display = "block";
@@ -346,6 +355,7 @@ function start9() {
   block6.style.display = "none";
   block10.style.display = "none";
   block11.style.display = "none";
+  block12.style.display = "none";
   var more9 = document.getElementById("more9");
   more9.style.display = "none";
   more6.style.display = "block";
@@ -353,6 +363,7 @@ function start9() {
   more8.style.display = "block";
   more10.style.display = "block";
   more11.style.display = "block";
+  more12.style.display = "block";
 }
 function start10() {
   block10.style.display = "block";
@@ -361,6 +372,7 @@ function start10() {
   block8.style.display = "none";
   block6.style.display = "none";
   block11.style.display = "none";
+  block12.style.display = "none";
   var more10 = document.getElementById("more10");
   more10.style.display = "none";
   more6.style.display = "block";
@@ -368,6 +380,7 @@ function start10() {
   more8.style.display = "block";
   more9.style.display = "block";
   more11.style.display = "block";
+  more12.style.display = "block";
 }
 
 function start11() {
@@ -377,6 +390,7 @@ function start11() {
   block8.style.display = "none";
   block6.style.display = "none";
   block10.style.display = "none";
+  block12.style.display = "none";
   var more11 = document.getElementById("more11");
   more11.style.display = "none";
   more6.style.display = "block";
@@ -384,4 +398,22 @@ function start11() {
   more10.style.display = "block";
   more8.style.display = "block";
   more9.style.display = "block";
+  more12.style.display = "block";
+}
+function start12() {
+  block12.style.display = "block";
+  block11.style.display = "none";
+  block9.style.display = "none";
+  block7.style.display = "none";
+  block8.style.display = "none";
+  block6.style.display = "none";
+  block10.style.display = "none";
+  var more12 = document.getElementById("more12");
+  more12.style.display = "none";
+  more6.style.display = "block";
+  more7.style.display = "block";
+  more10.style.display = "block";
+  more8.style.display = "block";
+  more9.style.display = "block";
+  more11.style.display = "block";
 }
