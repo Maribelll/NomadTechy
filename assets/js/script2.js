@@ -13,6 +13,8 @@ function start1() {
   block5.style.display = "none";
   var block55 = document.getElementById("block55");
   block55.style.display = "none";
+  var block56 = document.getElementById("block56");
+  block56.style.display = "none";
   var backcolor1 = document.getElementById("Four_but");
   backcolor1.style.backgroundColor = "F3F6FB";
 
@@ -28,6 +30,8 @@ function start1() {
   more5.style.display = "block";
   var more55 = document.getElementById("more55");
   more55.style.display = "block";
+  var more56 = document.getElementById("more56");
+  more56.style.display = "block";
   var serv1 = document.getElementById("serv1");
   serv1.style.backgroundColor = "#F3F6FB";
   var serv2 = document.getElementById("serv2");
@@ -40,6 +44,8 @@ function start1() {
   serv5.style.backgroundColor = "#FFFFFF";
   var serv55 = document.getElementById("serv55");
   serv55.style.backgroundColor = "#FFFFFF";
+  var serv56 = document.getElementById("serv56");
+  serv56.style.backgroundColor = "#FFFFFF";
 }
 
 function start2() {
@@ -49,18 +55,21 @@ function start2() {
   block4.style.display = "none";
   block5.style.display = "none";
   block55.style.display = "none";
+  block56.style.display = "none";
   // more2.style.display = "none";
   more1.style.display = "block";
   more3.style.display = "block";
   more4.style.display = "block";
   more5.style.display = "block";
   more55.style.display = "block";
+  more56.style.display = "block";
   var serv1 = document.getElementById("serv1");
   var serv2 = document.getElementById("serv2");
   var serv3 = document.getElementById("serv3");
   var serv4 = document.getElementById("serv4");
   var serv5 = document.getElementById("serv5");
   var serv55 = document.getElementById("serv55");
+  var serv56 = document.getElementById("serv56");
   serv5.style.backgroundColor = "#FFFFFF";
   serv2.style.backgroundColor = "#F3F6FB";
   serv1.style.backgroundColor = "#FFFFFF";
@@ -68,6 +77,7 @@ function start2() {
   serv4.style.backgroundColor = "#FFFFFF";
   serv5.style.backgroundColor = "#FFFFFF";
   serv55.style.backgroundColor = "#FFFFFF";
+  serv56.style.backgroundColor = "#FFFFFF";
 }
 
 function start3() {
@@ -77,24 +87,28 @@ function start3() {
   block4.style.display = "none";
   block5.style.display = "none";
   block55.style.display = "none";
+  block56.style.display = "none";
   //   more3.style.display = "none";
   more1.style.display = "block";
   more2.style.display = "block";
   more4.style.display = "block";
   more5.style.display = "block";
   more55.style.display = "block";
+  more56.style.display = "block";
   var serv1 = document.getElementById("serv1");
   var serv2 = document.getElementById("serv2");
   var serv3 = document.getElementById("serv3");
   var serv4 = document.getElementById("serv4");
   var serv5 = document.getElementById("serv5");
   var serv55 = document.getElementById("serv55");
+  var serv56 = document.getElementById("serv56");
   serv3.style.backgroundColor = "#F3F6FB";
   serv1.style.backgroundColor = "#FFFFFF";
   serv2.style.backgroundColor = "#FFFFFF";
   serv4.style.backgroundColor = "#FFFFFF";
   serv5.style.backgroundColor = "#FFFFFF";
   serv55.style.backgroundColor = "#FFFFFF";
+  serv56.style.backgroundColor = "#FFFFFF";
 }
 
 function start4() {
@@ -104,29 +118,34 @@ function start4() {
   block3.style.display = "none";
   block5.style.display = "none";
   block55.style.display = "none";
+  block56.style.display = "none";
   //   more4.style.display = "none";
   more1.style.display = "block";
   more2.style.display = "block";
   more3.style.display = "block";
   more5.style.display = "block";
   more55.style.display = "block";
+  more56.style.display = "block";
   var serv1 = document.getElementById("serv1");
   var serv2 = document.getElementById("serv2");
   var serv3 = document.getElementById("serv3");
   var serv4 = document.getElementById("serv4");
   var serv5 = document.getElementById("serv5");
   var serv55 = document.getElementById("serv55");
+  var serv56 = document.getElementById("serv55");
   serv4.style.backgroundColor = "#F3F6FB";
   serv1.style.backgroundColor = "#FFFFFF";
   serv2.style.backgroundColor = "#FFFFFF";
   serv3.style.backgroundColor = "#FFFFFF";
   serv5.style.backgroundColor = "#FFFFFF";
   serv55.style.backgroundColor = "#FFFFFF";
+  serv56.style.backgroundColor = "#FFFFFF";
 }
 
 function start5() {
   block5.style.display = "block";
   block55.style.display = "none";
+  block56.style.display = "none";
   block1.style.display = "none";
   block2.style.display = "none";
   block4.style.display = "none";
@@ -137,22 +156,26 @@ function start5() {
   more4.style.display = "block";
   more3.style.display = "block";
   more55.style.display = "block";
+  more56.style.display = "block";
   var serv1 = document.getElementById("serv1");
   var serv2 = document.getElementById("serv2");
   var serv3 = document.getElementById("serv3");
   var serv4 = document.getElementById("serv4");
   var serv5 = document.getElementById("serv5");
   var serv55 = document.getElementById("serv55");
+  var serv56 = document.getElementById("serv56");
   serv5.style.backgroundColor = "#F3F6FB";
   serv1.style.backgroundColor = "#FFFFFF";
   serv2.style.backgroundColor = "#FFFFFF";
   serv4.style.backgroundColor = "#FFFFFF";
   serv3.style.backgroundColor = "#FFFFFF";
   serv55.style.backgroundColor = "#FFFFFF";
+  serv56.style.backgroundColor = "#FFFFFF";
 }
 function start55() {
   block55.style.display = "block";
   block5.style.display = "none";
+  block56.style.display = "none";
   block1.style.display = "none";
   block2.style.display = "none";
   block4.style.display = "none";
@@ -163,18 +186,51 @@ function start55() {
   more4.style.display = "block";
   more3.style.display = "block";
   more5.style.display = "block";
+  more56.style.display = "block";
   var serv1 = document.getElementById("serv1");
   var serv2 = document.getElementById("serv2");
   var serv3 = document.getElementById("serv3");
   var serv4 = document.getElementById("serv4");
   var serv5 = document.getElementById("serv5");
   var serv55 = document.getElementById("serv55");
+  var serv56 = document.getElementById("serv56");
   serv55.style.backgroundColor = "#F3F6FB";
   serv1.style.backgroundColor = "#FFFFFF";
   serv2.style.backgroundColor = "#FFFFFF";
   serv4.style.backgroundColor = "#FFFFFF";
   serv3.style.backgroundColor = "#FFFFFF";
   serv5.style.backgroundColor = "#FFFFFF";
+  serv56.style.backgroundColor = "#FFFFFF";
+}
+function start56() {
+  block56.style.display = "block";
+  block5.style.display = "none";
+  block55.style.display = "none";
+  block1.style.display = "none";
+  block2.style.display = "none";
+  block4.style.display = "none";
+  block3.style.display = "none";
+  //   more55.style.display = "none";
+  more1.style.display = "block";
+  more2.style.display = "block";
+  more4.style.display = "block";
+  more3.style.display = "block";
+  more5.style.display = "block";
+  more55.style.display = "block";
+  var serv1 = document.getElementById("serv1");
+  var serv2 = document.getElementById("serv2");
+  var serv3 = document.getElementById("serv3");
+  var serv4 = document.getElementById("serv4");
+  var serv5 = document.getElementById("serv5");
+  var serv55 = document.getElementById("serv55");
+  var serv56 = document.getElementById("serv56");
+  serv56.style.backgroundColor = "#F3F6FB";
+  serv1.style.backgroundColor = "#FFFFFF";
+  serv2.style.backgroundColor = "#FFFFFF";
+  serv4.style.backgroundColor = "#FFFFFF";
+  serv3.style.backgroundColor = "#FFFFFF";
+  serv5.style.backgroundColor = "#FFFFFF";
+  serv55.style.backgroundColor = "#FFFFFF";
 }
 
 function close_block() {
@@ -184,12 +240,14 @@ function close_block() {
   var block4 = document.getElementById("block4");
   var block5 = document.getElementById("block5");
   var block55 = document.getElementById("block55");
+  var block56 = document.getElementById("block56");
   var serv1 = document.getElementById("serv1");
   var serv2 = document.getElementById("serv2");
   var serv3 = document.getElementById("serv3");
   var serv4 = document.getElementById("serv4");
   var serv5 = document.getElementById("serv5");
   var serv55 = document.getElementById("serv55");
+  var serv56 = document.getElementById("serv56");
 
   serv1.style.backgroundColor = "#FFFFFF";
   serv2.style.backgroundColor = "#FFFFFF";
@@ -197,17 +255,20 @@ function close_block() {
   serv4.style.backgroundColor = "#FFFFFF";
   serv5.style.backgroundColor = "#FFFFFF";
   serv55.style.backgroundColor = "#FFFFFF";
+  serv56.style.backgroundColor = "#FFFFFF";
   block1.style.display = "none";
   block2.style.display = "none";
   block3.style.display = "none";
   block4.style.display = "none";
   block5.style.display = "none";
   block55.style.display = "none";
+  block56.style.display = "none";
   more4.style.display = "block";
   more1.style.display = "block";
   more2.style.display = "block";
   more3.style.display = "block";
   more5.style.display = "block";
+  more56.style.display = "block";
   var more55 = document.getElementById("more55");
   more55.style.display = "block";
 }
