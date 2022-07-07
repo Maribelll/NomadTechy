@@ -94,8 +94,20 @@ a :hover {
   font-weight: bold;
   font-size: 14px;
   text-align: center;
+  transition: 1s ease;
 }
-
+#blu_button:hover {
+  transition: 1s ease;
+  background-color: #e7663d;
+}
+#main_blu_button:hover {
+  background-color: #e7663d;
+  transition: 1s ease;
+}
+.button_artelle:hover {
+  border-color: #e7663d;
+  transition: 1s ease;
+}
 .main_img img {
   width: 100%;
   opacity: 0.48;
@@ -145,6 +157,11 @@ h1 {
   font-weight: bold;
   font-size: 14px;
   text-align: center;
+  transition: 1s ease;
+}
+#transparent_button:hover {
+  transition: 1s ease;
+  border-color: #e7663d;
 }
 /* ask_services */
 .container_ask_services {
@@ -435,7 +452,7 @@ footer {
 }
 .button_artelle {
   width: 477px;
-
+  transition: 1s ease;
   border-radius: 40px;
   background: transparent;
   border: #53c4ff solid 2px;
