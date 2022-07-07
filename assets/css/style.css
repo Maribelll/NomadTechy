@@ -24,7 +24,9 @@ a:hover {
   background-color: #325ca0;
   width: 100%;
 }
-
+#mail {
+  color: white;
+}
 .menu_up div {
   margin-right: 40px;
   margin-bottom: 0px;
