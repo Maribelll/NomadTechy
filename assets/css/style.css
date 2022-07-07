@@ -1080,6 +1080,9 @@ input[type="email"] {
 }
 
 @media all and (max-width: 1000px) {
+  .menu li {
+    display: none;
+  }
   .menu_ul,
   .artelle {
     display: none;
@@ -1379,9 +1382,7 @@ input[type="email"] {
 }
 
 @media all and (max-width: 750px) {
-  .menu li {
-    display: none;
-  }
+ 
 
   .main_header {
     font-size: 35px;
