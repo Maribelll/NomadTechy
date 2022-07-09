@@ -1,7 +1,7 @@
 const swiper = new Swiper(".swiper", {
   // Optional parameters
-  slidesPerView: 5,
-  slidesPerGroup: 1,
+  // slidesPerView: 5,
+  // slidesPerGroup: 1,
   // centeredSlides: true,
   // draggable: true,
   // allowTouchMove: true,
@@ -24,17 +24,17 @@ const swiper = new Swiper(".swiper", {
     2000: {
       slidesPerView: 5,
       slidesPerGroup: 1,
-      spaceBetween: 23,
+      spaceBetween: 22,
     },
     1220: {
       slidesPerView: 4,
       slidesPerGroup: 1,
-      spaceBetween: 23,
+      spaceBetween: 22,
     },
     1120: {
       slidesPerView: 3,
       slidesPerGroup: 1,
-      spaceBetween: 23,
+      spaceBetween: 22,
     },
   },
 });

@@ -81,7 +81,7 @@ a :hover {
   opacity: 1;
 }
 
-#blu_button,
+.blu_button,
 #main_blu_button {
   width: 216px;
   height: 46px;
@@ -96,7 +96,7 @@ a :hover {
   text-align: center;
   transition: 1s ease;
 }
-#blu_button:hover {
+.blu_button:hover {
   transition: 1s ease;
   background-color: #e7663d;
 }
@@ -110,7 +110,7 @@ a :hover {
 }
 .main_img img {
   width: 100%;
-  opacity: 0.48;
+  opacity: 100;
   height: auto;
 }
 
@@ -226,11 +226,11 @@ h1 {
   padding: 0;
   position: absolute;
   top: 167px;
-  right: 73px;
+  right: 63px;
 }
 .more p {
   margin-bottom: 0;
-  border-bottom: solid 1px #325ca0;
+  /* border-bottom: solid 1px #325ca0; */
 }
 /* .about {
   display: flex;
@@ -349,7 +349,7 @@ h1 {
   margin-bottom: 0;
 }
 .icon {
-  height: 85px;
+  height: 105px;
   width: 41px;
 }
 
@@ -522,7 +522,8 @@ input[type="email"] :active {
   width: 203px;
   height: 233px;
   min-width: 189px;
-  border: solid 3px #325ca0;
+  border: solid 2px #325ca0;
+  border-radius: 5px;
   /* margin: 0 10.5px 0 10.5px; */
 }
 /* #serv55 p {
@@ -611,11 +612,11 @@ input[type="email"] :active {
   display: none;
 }
 
-.btn-primary {
+/* .btn-primary {
   color: #fff;
   background-color: #243755;
   border-color: #243755;
-}
+} */
 
 #submit_modal {
   margin-left: 2px;
@@ -728,8 +729,7 @@ input[type="email"] {
   font-weight: 400;
   font-size: 3em;
 }
-
-.btn-primary {
+.modal-footer .btn-primary {
   width: 400px;
   background-color: #53c4ff;
   color: white;
@@ -1148,6 +1148,7 @@ input[type="email"] {
   #block56 {
     display: none;
   }
+  .menu li,
   .menu_ul,
   .artelle {
     display: none;
@@ -1513,7 +1514,7 @@ input[type="email"] {
     width: 159px;
   }
 
-  #blu_button {
+  .blu_button {
     width: 142px;
     font-size: 10px;
     height: 28px;
@@ -1536,8 +1537,8 @@ input[type="email"] {
     padding: 20px 0px;
   }
 
-  .service_text #blu_button,
-  .call_to_action #blu_button {
+  .service_text .blu_button,
+  .call_to_action .blu_button {
     width: 216px;
     font-size: 14px;
     height: 46px;
@@ -1552,6 +1553,9 @@ input[type="email"] {
     margin-right: -35px;
     margin-left: 40px;
     margin-top: 20px;
+  }
+  textarea {
+    margin-bottom: -10px;
   }
 }
 
@@ -1619,6 +1623,9 @@ input[type="email"] {
   }
 }
 @media all and (max-width: 440px) {
+  .col-6 h2 {
+    padding-left: 0;
+  }
   #submit_modal {
     margin-left: 5px;
   }
