@@ -1463,6 +1463,9 @@ input[type="email"] {
   }
 }
 @media all and (max-width: 630px) {
+  .adapt_delete {
+    display: none;
+  }
   .main_header {
     height: 224px;
     top: 33%;
