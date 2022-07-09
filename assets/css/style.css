@@ -338,7 +338,9 @@ h1 {
   letter-spacing: 0em;
   text-align: center;
   margin-bottom: 30px;
+  padding: 0 10px;
 }
+
 #call_to_action1 {
   font-family: Open Sans;
   font-size: 21px;
@@ -1083,6 +1085,10 @@ input[type="email"] {
 }
 
 @media all and (max-width: 1070px) {
+  .photo_owner {
+    max-width: 553px;
+    margin: 0 auto;
+  }
   .owner_block {
     max-width: 1100px;
     height: auto;
@@ -1095,11 +1101,14 @@ input[type="email"] {
     margin: auto;
 
     height: auto;
-    align-items: center;
+    align-items: flex-start;
   }
   .container_owner #back,
   .owner_block h4 {
     display: none;
+  }
+  .message_owner {
+    align-self: center;
   }
 
   .closebtn {
@@ -1700,7 +1709,7 @@ input[type="email"] {
     height: 450px;
   } */
   .photo_owner p {
-    margin-left: -80px;
+    margin-left: -83px;
     padding-left: 20px;
   }
 }
