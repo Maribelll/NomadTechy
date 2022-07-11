@@ -1,13 +1,16 @@
 .swiper {
   position: relative;
-  max-width: 1120px;
+  max-width: 1115px;
   height: 255px;
+  padding-left: 12px;
 }
 .swipper-wrapper {
   width: 1150px;
 }
 .swiper-slide {
-  flex-shrink: 1 !important;
+  /* width: 203px !important; */
+  flex-shrink: 0 !important;
+  /* margin: 0 11px; */
 }
 .swiper-button-next {
   position: absolute;
@@ -29,7 +32,16 @@
   .swiper-button-prev {
     left: 75px;
   }
+  /* fix changes slider */
+  .swiper-wrapper {
+    margin-left: 0;
+  }
+  /* .swiper-slide {
+    /* width: 233px !important; */
+
+  /* fix changes slider */
 }
+
 @media all and (max-width: 1120px) {
   /* .pos {
     display: none;

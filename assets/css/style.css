@@ -226,7 +226,7 @@ h1 {
   padding: 0;
   position: absolute;
   top: 167px;
-  right: 63px;
+  right: 83px;
 }
 .more p {
   margin-bottom: 0;
@@ -1048,6 +1048,16 @@ input[type="email"] {
     font-size: 16px;
   }
 }
+/* @media all and (min-width: 1220px) {
+  /* fix changes slider */
+/* .swiper-wrapper {
+    margin-left: 0;
+  }
+  .swiper-slide {
+    width: 203px !important; */
+
+/* fix changes slider */
+
 @media all and (max-width: 1220px) {
   #block1,
   #block2,
@@ -1057,6 +1067,11 @@ input[type="email"] {
   #block55 {
     max-width: 880px;
   }
+  /* fix changes slider */
+  /* .swiper-wrapper {
+    margin-left: 20px;
+  } */
+  /* fix changes slider */
 }
 @media all and (max-width: 1180px) {
   .nomadtechy {
