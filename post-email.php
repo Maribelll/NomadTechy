@@ -22,7 +22,7 @@ $message = trim(strip_tags($_POST['f']['message']));
 
 
 $to = 'mashik.b@yandex.ru'; // адрес получателя
-$from = '';  // адрес отправителя
+$from = 'maryia.beliachyts@gmail.com';  // адрес отправителя
 
 $subject = 'Website Request - '.$email; // тема письма
 
