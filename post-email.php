@@ -12,11 +12,6 @@ if (!isset($_POST['f']['message'])) exit('No direct script access allowed');
 
 
 
-
-
-
-
-
 $email = trim(strip_tags($_POST['f']['email']));
 $name = trim(strip_tags($_POST['f']['name']));
 $company = trim(strip_tags($_POST['f']['company']));
@@ -26,29 +21,16 @@ $message = trim(strip_tags($_POST['f']['message']));
 
 
 
+$to = 'mashik.b@yandex.ru'; // адрес получателя
+$from = '';  // адрес отправителя
 
-
-
-// if (!filter_var($email, FILTER_VALIDATE_EMAIL))
-// {
-// 	exit('Неверный email! Обновите страницу (F5) и укажите правильный адрес');
-// }
-
-// if (!$name)
-// {
-// 	exit('Не указано имя! Обновите страницу (F5) и укажите своё имя');
-// }
-
-
-$to = ''; // адрес получателя
-
-$subject = 'Subject'; // тема письма
+$subject = 'Website Request - '.$email; // тема письма
 
 // формируем тело сообщения
 $message = 'Name: ' . $name . "\r\n" . 'Email: ' . $email . "\r\n" . 'Company: ' . $company . "\r\n" . 'Phone Number: ' . $phoneNumber . "\r\n" . 'Message: ' . $message; 
 
 // формируем headers для письма
-$headers = 'From: '. $email . "\r\n"; // от кого
+$headers = 'from: '. $email . "\r\n"; // от кого
  
 // кодируем заголовок в UTF-8
 $subject = preg_replace("/(\r\n)|(\r)|(\n)/", "", $subject);
