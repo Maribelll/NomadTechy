@@ -1,8 +1,8 @@
 jQuery(function ($) {
   $("#my_form_email input, #my_form_email textarea").bind(
     "keyup",
-    function (event) {
-      var pattern = /^[a-z0-9_-]+@[a-z0-9-]+\.\[a-z]{2,6}$/i;
+    function (_event) {
+      var pattern = /^[a-z0-9_-]+@[a-z0-9-]+\[a-z]{2,6}$/i;
       var mail = $("#my_form_email .email");
 
       // if(mail.val().search(pattern) == 0){
