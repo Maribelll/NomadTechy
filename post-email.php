@@ -21,8 +21,8 @@ $message = trim(strip_tags($_POST['f']['message']));
 
 
 
-$to = 'mashik.b@yandex.ru'; // адрес получателя
-$from = 'maryia.beliachyts@gmail.com';  // адрес отправителя
+$to = 'info@nomadtechy.com'; // адрес получателя
+$from = 'support@nomadtechy.com';  // адрес отправителя
 
 $subject = 'Website Request - '.$email; // тема письма
 
