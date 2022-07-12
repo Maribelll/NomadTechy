@@ -22,7 +22,6 @@ jQuery(function ($) {
         mail.val().search(pattern) == 0
       ) {
         $("#submit_modal_err").css("display", "none");
-
         $("#form_err").css("display", "none");
         $("#submit_modal").css("display", "block");
       }
@@ -45,7 +44,7 @@ jQuery(function ($) {
     }
   );
 
-  $("#submit_modal_err").bind("click", function (event) {
+  $("#submit_modal_err").bind("click", function (_event) {
     $("#form_err").css("display", "block");
     if ($("#my_form_email .name").val() == "") {
       $("#my_form_email .name").css("border", "solid thin #f00");
@@ -71,7 +70,7 @@ jQuery(function ($) {
     }
   });
 
-  $("#submit_modal").bind("click", function (event) {
+  $("#submit_modal").bind("click", function (_event) {
     $(".thankyou").css("display", "block");
   });
 });
