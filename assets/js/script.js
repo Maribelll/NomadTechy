@@ -54,7 +54,7 @@ jQuery(function ($) {
       $("#my_form_email .message").css("border", "solid thin #f00");
     }
 
-    var pattern = /[a-zA-Z0-9+_ . -]/i;
+    var pattern = /^[-\w.]+@[-\w.]+\.[a-z]{2,20}$/i;
 
     var mail = $("#my_form_email .email");
 
@@ -64,6 +64,6 @@ jQuery(function ($) {
   });
 
   $("#submit_modal").bind("click", function (event) {
-    //$('.thankyou').css('display', "block");
+    $(".thankyou").css("display", "block");
   });
 });
